@@ -1,0 +1,58 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thulane Studio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        #content {
+            text-align: center;
+        }
+
+        #bigT {
+            font-size: 150px;
+            font-weight: bold;
+            animation: colorChange 3s infinite; /* Changes color every 3 seconds */
+        }
+
+        #subtitle {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: yellow; }
+            100% { color: red; }
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="bigT">T</div>
+        <div id="subtitle">Thulane Studio</div>
+    </div>
+
+    <script>
+        // Redirect to Thulanestudios.html after 18 seconds
+        setTimeout(() => {
+            window.location.href = 'Thulanestudios.html';
+        }, 18000);
+    </script>
+</body>
+</html>
